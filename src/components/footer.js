@@ -2,15 +2,15 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <section>
-        <div class="wave">
+    <div className="container">
+      <section className="footer__component">
+      <div class="wave">
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        <div className="container">
+        <div className="Footer__container">
           <div className="row footer__title">
             LATEN WE IETS GEWELDIGS CREËREN
           </div>
@@ -27,24 +27,27 @@ const Footer = () => {
               <div>
                 {" "}
                 <a href="">
-                  Instagram <span> {/* <img src={Vector} alt="" /> */}</span>
+                  Instagram{" "}
+                  <span> {/* <img src={Vector} alt="" />{" "} */}</span>
                 </a>
                 <a href="">
-                  Facebook <span> {/* <img src={Vector} alt="" /> */}</span>
+                  Facebook <span>{/* <img src={Vector} alt="" />{" "} */}</span>
                 </a>
                 <a href="">
-                  LinkedIn <span> {/* <img src={Vector} alt="" /> */}</span>
+                  LinkedIn{" "}
+                  <span> {/* <img src={Vector} alt="" />{" "} */}</span>
                 </a>
                 <a href="">
-                  TikTok <span> {/* <img src={Vector} alt="" /> */}</span>
+                  TikTok <span> {/* <img src={Vector} alt="" />{" "} */}</span>
                 </a>
                 <a href="">
-                  Whatsapp <span> {/* <img src={Vector} alt="" /> */}</span>
+                  Whatsapp <span>{/* <img src={Vector} alt="" />{" "} */}</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        <p>©2021 Laforga. Alle rechten voorbehouden</p>
       </section>
     </div>
   );
