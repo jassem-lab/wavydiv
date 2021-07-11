@@ -20,7 +20,7 @@ const ReactPlayerComponent = () => {
         playing={true}
         
         
-        url={Beggin}
+        url={Video}
         playsinline={true}
       />
     </div>
