@@ -6,6 +6,8 @@ const ReactPlayerComponent = () => {
   return (
     <div>
       <ReactPlayer
+        autoPlay
+        muted={true}
         url={Video}
         controls={false}
         playsinline={true}
