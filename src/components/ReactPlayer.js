@@ -7,12 +7,7 @@ const ReactPlayerComponent = () => {
     <div>
     this video
       <ReactPlayer
-        autoPlay
-        muted={true}
-        url={Video}
-        controls={false}
-        playsinline={true}
-        playing={true}
+      autoPlay playing={true} url={Video} muted
       />
     </div>
   );
