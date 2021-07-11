@@ -7,11 +7,11 @@ const ReactPlayerComponent = () => {
     <div>
       this video
       <ReactPlayer
-        playsinline="true"
+        playsinline={true}
         className="video"
         autoPlay
         loop={true}
-        playing="true"
+        playing={true}
         volume="0"
         muted
         url={Video}
