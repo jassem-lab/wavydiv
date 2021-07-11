@@ -5,6 +5,7 @@ import Video from "../assets/aerial.mp4";
 const ReactPlayerComponent = () => {
   return (
     <div>
+    this video
       <ReactPlayer
         autoPlay
         muted={true}
