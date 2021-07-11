@@ -9,19 +9,12 @@ const ReactPlayerComponent = () => {
       <ReactPlayer
         playing={true}
         controls={true}
-        url={"https://www.youtube.com/watch?v=dDR1DFtik0E"}
+        url={
+          "https://www.youtube.com/watch?v=gdvQt6S7qFU&ab_channel=1HourLoops"
+        }
         autoPlay
       ></ReactPlayer>
-      <ReactPlayer
-        playsinline={true}
-        className="video"
-        autoPlay
-        loop={true}
-        playing={true}
-        volume="0"
-        muted={true}
-        url={Video}
-      />
+      <ReactPlayer url={Video} playing={true} controls={false} />
     </div>
   );
 };
