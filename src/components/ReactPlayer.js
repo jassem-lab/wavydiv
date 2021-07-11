@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import Video from "../assets/aerial.mp4";
+import Beggin from "../assets/videoplayback.mp4";
 
 const ReactPlayerComponent = () => {
   return (
@@ -19,7 +20,7 @@ const ReactPlayerComponent = () => {
         playing="true"
         volume="0"
         muted
-        url={Video}
+        url={Beggin}
         playsinline={true}
       />
     </div>
