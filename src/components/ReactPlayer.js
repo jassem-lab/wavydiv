@@ -17,6 +17,7 @@ const ReactPlayerComponent = () => {
         autoPlay
       ></ReactPlayer> */}
       <ReactPlayer
+        style={{ height: `120px`, width: `180px` }}
         loop={true}
         playing={true}
         url={Ac}
