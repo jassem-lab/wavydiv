@@ -21,7 +21,7 @@ const ReactPlayerComponent = () => {
         style={{ height: `120px`, width: `180px` }}
         loop={true}
         playing={true}
-        url={Vid}
+        url={Ac}
         muted={true}
         playsinline={true}
       />
