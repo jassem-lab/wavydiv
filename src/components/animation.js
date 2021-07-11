@@ -1,42 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import lottie from "lottie-web";
 import animation from "../animation/laforga.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 import an from "../animation/an.json";
+import Lottie from "react-lottie-player";
 
 const Animation = () => {
-  let animationContainer = React.createRef();
+  //   let animationContainer = React.createRef();
 
-  React.useEffect(() => {
-    lottie.loadAnimation({
-      container: animationContainer.current,
-      animationData: an,
-      loop: true,
-      play: true,
-      autoplay: true,
-      renderer: "svg",
-    });
+  //   React.useEffect(() => {
+  //     lottie.loadAnimation({
+  //       container: animationContainer.current,
+  //       animationData: an,
+  //       loop: true,
+  //       play: true,
+  //       autoplay: true,
+  //       renderer: "svg",
+  //     });
+  //   }, []);
+
+  const [animationData, setAnimationData] = useState();
+
+  useEffect(() => {
+    import("../animation/an.json").then(setAnimationData);
   }, []);
 
-
-//   https://lottiefiles.com/share/i5eriina
-
-
-
+  if (!animationData) return <div style={{ color: `red` }}>Loading...</div>;
   return (
-    <div>
-      <div style={{ width: `200px`, height: `200px` }}>
-        <Player
-          autoplay={true}
-          play
-          loop
-          speed="1"
-          background="transparent"
-          src={an}
-        ></Player>
-      </div>
-      <div className="animation-container" ref={animationContainer} />
-    </div>
+    <Player
+      src={animationData}
+      loop
+      autoplay
+      style={{ width: 150, height: 150 }}
+    />
   );
 };
 
