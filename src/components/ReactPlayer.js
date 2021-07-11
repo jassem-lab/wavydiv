@@ -14,7 +14,7 @@ const ReactPlayerComponent = () => {
         }
         autoPlay
       ></ReactPlayer>
-      <ReactPlayer loop={true} playing="true" volume="0" muted url={Video} />
+      <ReactPlayer loop={true} playing="true" volume="0" muted url={Video} playsinline />
     </div>
   );
 };
