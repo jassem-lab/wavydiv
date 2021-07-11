@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import Video from "../assets/aerial.mp4";
 import Beggin from "../assets/videoplayback.mp4";
 import Ac from "../assets/assassinCreeds.mp4";
+import Vid from "../assets/vid.mp4";
 
 const ReactPlayerComponent = () => {
   return (
@@ -20,7 +21,7 @@ const ReactPlayerComponent = () => {
         style={{ height: `120px`, width: `180px` }}
         loop={true}
         playing={true}
-        url={Ac}
+        url={Vid}
         muted={true}
         playsinline={true}
       />
