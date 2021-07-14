@@ -1,0 +1,131 @@
+.main-section-six {
+    background : blue ;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  .services-container {
+   
+
+    .services-images {
+      img {
+        max-width: 300px;
+      }
+    }
+
+    .services-intro {
+        margin: 50px 40px;
+      padding: 40px 100px;
+
+      background-color: #fffcf7;
+      color: #1b1b1b;
+
+      .services-intro-text {
+        h1 {
+          font-family: "BebasNeue";
+          font-weight: 100;
+          font-size: 48px;
+          line-height: 55px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .detail-services-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 15px;
+
+        .detail-services-elm {
+          display: flex;
+          width: 50%;
+          margin: 5px 0;
+
+          img {
+            margin-right: 10px;
+            max-width: 40px;
+          }
+        }
+      }
+    }
+    .services {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .services-design {
+    }
+
+    .services-development {
+    }
+
+    .services-support  {
+        padding-right: 100px !important ;
+    }
+
+    div.services-support {
+      background-color: #fffcf7;
+      padding-right: 100px;
+      padding-top: 50px;
+      padding-left: 70px;
+      padding-bottom: 40px;
+      border-radius: 1px;
+
+      h2,
+      p {
+        color: #1b1b1b;
+      }
+
+      h2 {
+        span {
+          color: rgba(27, 27, 27, 0.3);
+        }
+      }
+
+      // .yellow-detail {
+      //   font-weight: bold;
+      // }
+
+      // .yellow-detail::before {
+      //   height: 10px;
+      //   bottom: 0px;
+      //   font-weight: 900;
+      // }
+    }
+
+    .service {
+        width : 100% ;
+        padding : 30px ; 
+        max-width: 800px;
+      color: white;
+
+      h2 {
+        color: white;
+        font-size: 41px;
+        font-family: "BebasNeue";
+        font-weight: 100;
+        position: relative;
+        margin-bottom: 25px;
+
+        span {
+          color: rgba(238, 236, 224, 0.3);
+          font-size: 120px;
+          left: 15px;
+          position: absolute;
+          opacity: 0.5 !important;
+          top: -37px;
+        }
+      }
+
+      p {
+        color: white;
+      }
+    }
+
+    .show {
+      opacity: 1;
+      transition: opacity 4s;
+    }
+  }
+}

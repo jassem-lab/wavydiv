@@ -27,12 +27,20 @@ const Animation = () => {
 
   if (!animationData) return <div style={{ color: `red` }}>Loading...</div>;
   return (
-    <Player
-      src={animationData}
+    <>
+   <Player
+      src="https://assets9.lottiefiles.com/packages/lf20_1vb6lfpn.json"
       loop
       autoplay
       style={{ width: 150, height: 150 }}
     />
+     <Player
+      src="https://assets2.lottiefiles.com/packages/lf20_de3mokag.json"
+      loop
+      autoplay
+      style={{ width: 150, height: 150 }}
+    /> 
+    </>
   );
 };
 

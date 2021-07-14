@@ -1,19 +1,18 @@
 import "./App.scss";
 import Services from "./components/services";
-import Footer from "./components/footer";
+import Accordion from "./components/AccordionApp";
 import Animation from "./components/animation";
 import ReactPlayer from "./components/ReactPlayer";
+
+import Footer3 from "./components/footer3";
 
 function App() {
   return (
     <div className="">
-      <mark>Hello world</mark>
-      <ReactPlayer />
-      {/* <Animation /> */}
-      {/* <div className="content">
-        <Services />
-      </div> */}
+      <Accordion />
+      <Animation />
       {/* <Footer /> */}
+      {/* <Footer3 /> */}
     </div>
   );
 }
