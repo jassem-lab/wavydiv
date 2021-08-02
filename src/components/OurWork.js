@@ -5,9 +5,10 @@ import Swiper from "react-id-swiper";
 
 const OurWork = () => {
   const sliderParams = {
-    slidesPerView: "auto",
+    
     centeredSlides: false,
-    loop: true,
+    slidesPerView: 1.2,
+    spaceBetween: 0,
   };
   return (
     <section className="study-case-container">

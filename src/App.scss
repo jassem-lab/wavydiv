@@ -203,7 +203,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  transition: all 0.5s;
+
+  
   h3 {
     color: white;
     font-size: 24px;
@@ -220,30 +221,16 @@ body {
   padding-bottom: 25px;
   margin-top: auto;
 }
-.thumbnail__container {
-  display: flex;
+
+
+@media screen and (max-width: 600px) {
+ 
   .test {
-    margin: 20px;
+    height: 450px;
+    max-width: 290px !important;
+
+    margin: 25px 5% !important;
+    width: 80vw;
   }
 }
-@media only screen and (max-width: 600px) {
-  .test {
-    max-width: 400px;
-  }
-  .thumbnail__container {
-    margin-left: 0;
-  }
-}
-// .test2__wrapper {
-//   height: 550px !important;
-//   width: 300px;
-//   overflow: hidden;
-// }
-// .test2 {
-//   height: 550px;
-//   width: 300px;
-//   overflow: hidden;
-//   background-image: url("./assets/maglashic-thumbnail.png");
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
+
