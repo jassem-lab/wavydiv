@@ -7,7 +7,7 @@ const OurWork = () => {
   const sliderParams = {
     slidesPerView: "auto",
     centeredSlides: false,
-    Autoplay: true,
+    loop: true,
   };
   return (
     <section className="study-case-container">
