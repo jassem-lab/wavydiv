@@ -8,7 +8,7 @@ const OurWork = () => {
     centeredSlides: false,
     slidesPerView: "auto" ,
     loop : true , 
-    
+    spaceBetween: 30,
   };
   return (
     <section className="study-case-container">
