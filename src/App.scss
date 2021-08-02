@@ -186,8 +186,8 @@ body {
 //   display: block;
 //   margin: 0;
 // }
-.thumbnail__container{
-  margin-left : 80px ; 
+.thumbnail__container {
+  margin-left: 80px;
 }
 .test {
   display: flex;
@@ -199,22 +199,30 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   transition: all 0.5s;
-  &:hover{
+  &:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
-}
+  }
 }
 .test__paragraphe {
-  padding : 0 25px ; 
+  padding: 0 25px;
   padding-bottom: 25px;
   margin-top: auto;
 }
-.thumbnail__container{
-  display : flex ; 
-  .test{
-    margin : 20px ;
+.thumbnail__container {
+  display: flex;
+  .test {
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .test {
+    max-width: 400px;
+  }
+  .thumbnail__container {
+    margin-left: 0;
   }
 }
