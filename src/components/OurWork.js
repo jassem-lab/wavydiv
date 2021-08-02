@@ -6,12 +6,13 @@ import Swiper from "react-id-swiper";
 const OurWork = () => {
   const sliderParams = {
     centeredSlides: false,
-    slidesPerView: 1.2,
-    loop: true,
+    slidesPerView: "auto" ,
+    loop : true , 
+    
   };
   return (
     <section className="study-case-container">
-      <h2>Meest recente werk</h2>
+      
       {/* <div className="recent-work">
         <div className="recent-work-container">
           <article className="thumbnail-work maglashic">
