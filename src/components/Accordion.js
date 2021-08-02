@@ -1,8 +1,7 @@
 import React from "react";
 
-
 const Accordion = ({ title, children }) => {
-  const [isOpen, setOpen] = React.useState(false);
+  const [isOpen, setOpen] = React.useState(true);
   return (
     <div className="accordion-wrapper">
       <div
@@ -17,6 +16,5 @@ const Accordion = ({ title, children }) => {
     </div>
   );
 };
-
 
 export default Accordion;

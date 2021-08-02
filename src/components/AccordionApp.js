@@ -1,7 +1,6 @@
 import React from "react";
 import Accordion from "./Accordion";
 
-
 const AccordionApp = () => {
   return (
     <div>
@@ -12,16 +11,6 @@ const AccordionApp = () => {
           more than the other colors because it travels as shorter, smaller
           waves. This is why we see a blue sky most of the time.
         </Accordion>
-        <Accordion title="What's It Like Inside Jupiter?">
-          It's really hot inside Jupiter! No one knows exactly how hot, but
-          scientists think it could be about 43,000°F (24,000°C) near Jupiter's
-          center, or core.
-        </Accordion>
-        <Accordion title="What Is a Black Hole?">
-          A black hole is an area of such immense gravity that nothing -- not
-          even light -- can escape from it.
-        </Accordion>
-        
       </div>
     </div>
   );

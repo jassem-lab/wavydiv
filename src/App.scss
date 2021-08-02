@@ -6,6 +6,9 @@
 html {
   height: 100%;
 }
+body {
+  // background: #666;
+}
 
 .wrapper {
   width: 600px;
@@ -66,4 +69,136 @@ html {
 
 .accordion-content {
   padding: 1em 1.5em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+}
+.Question__response {
+  display: none;
+  position: relative;
+  animation: fade-out 1s;
+  -webkit-animation: fade-out 1s;
+}
+.showing {
+  display: block;
+  position: relative;
+  animation: fade-in 1s;
+  -webkit-animation: fade-in 1s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    top: -10px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.FAQ__container {
+  margin-top: 50px;
+}
+
+.website-offer-container {
+  background: #fffcf7 !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  position: absolute;
+  right: 100px;
+  top: 400px;
+
+  transition: 2s transform;
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+  p {
+    margin: 20px auto;
+    color: rgba(0, 0, 0, 1);
+    max-width: 480px;
+  }
+}
+
+// .thumbnail-work.maglashic {
+//   background-image: url("./assets/maglashic-thumbnail.png");
+// }
+// .thumbnail-work.four-editors {
+//   background-image: url("./assets/four-editors-work.jpeg");
+//   background-position-x: 10%;
+// }
+// .thumbnail-work {
+//   height: 550px;
+//   display: flex;
+//   margin: 25px;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+// article.thumbnail-work:nth-of-type(odd) {
+//   margin-right: 0;
+// }
+// .recent-work--info {
+//   align-items: center;
+
+//   // position: absolute;
+//   // bottom: 25px;
+//   // left: 25px;
+//   // right: 25px;
+//   color: white;
+
+//   padding: 50px;
+
+//   h3 {
+//     color: white;
+//     font-size: 24px;
+//   }
+
+//   p {
+//     color: white;
+//     margin-top: 10px;
+//     font-style: italic;
+//   }
+// }
+
+// .recent-work-container {
+//   display: flex;
+//   margin: 25px auto;
+//   overflow-y: hidden;
+// }
+
+// .recent-work {
+//   background: #fff;
+//   overflow-x: scroll;
+//   -webkit-overflow-scrolling: touch;
+//   width: 100vw;
+//   overflow-y: hidden;
+//   white-space: nowrap;
+//   position: relative;
+//   display: block;
+//   margin: 0;
+// }
+.test {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 450px;
+  height: 500px;
+  background-image: url("./assets/maglashic-thumbnail.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.test__paragraphe {
+  padding : 0 25px ; 
+  padding-bottom: 25px;
+  margin-top: auto;
 }

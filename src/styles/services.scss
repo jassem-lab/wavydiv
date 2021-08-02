@@ -1,11 +1,9 @@
 .main-section-six {
-    background : blue ;
+  background: gray;
   opacity: 1;
   display: flex;
   flex-direction: column;
   .services-container {
-   
-
     .services-images {
       img {
         max-width: 300px;
@@ -13,7 +11,7 @@
     }
 
     .services-intro {
-        margin: 50px 40px;
+      margin: 50px 40px;
       padding: 40px 100px;
 
       background-color: #fffcf7;
@@ -38,7 +36,7 @@
 
         .detail-services-elm {
           display: flex;
-          width: 50%;
+          flex: 1;
           margin: 5px 0;
 
           img {
@@ -60,8 +58,8 @@
     .services-development {
     }
 
-    .services-support  {
-        padding-right: 100px !important ;
+    .services-support {
+      padding-right: 100px !important ;
     }
 
     div.services-support {
@@ -82,22 +80,12 @@
           color: rgba(27, 27, 27, 0.3);
         }
       }
-
-      // .yellow-detail {
-      //   font-weight: bold;
-      // }
-
-      // .yellow-detail::before {
-      //   height: 10px;
-      //   bottom: 0px;
-      //   font-weight: 900;
-      // }
     }
 
     .service {
-        width : 100% ;
-        padding : 30px ; 
-        max-width: 800px;
+      width: 100%;
+      padding: 30px;
+      max-width: 800px;
       color: white;
 
       h2 {
