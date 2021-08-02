@@ -1,6 +1,14 @@
 import React from "react";
+import "swiper/swiper.scss";
+
+import Swiper from "react-id-swiper";
 
 const OurWork = () => {
+  const sliderParams = {
+    slidesPerView: "auto",
+    centeredSlides: false,
+    Autoplay: true,
+  };
   return (
     <section className="study-case-container">
       <h2>Meest recente werk</h2>
@@ -52,12 +60,39 @@ const OurWork = () => {
           </article>
         </div>
       </div> */}
+      <div className="thumbnail__container">
+        <Swiper {...sliderParams}>
+          <div className="test">
 
-      <div className="test">
-        <p className="test__paragraphe">
-          Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
-          look.
-        </p>
+            <p className="test__paragraphe">
+            <h3>Maglashic</h3>
+              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
+              look.
+            </p>
+          </div>
+
+          <div className="test">
+            <p className="test__paragraphe">
+            <h3>Maglashic</h3>
+              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
+              look.
+            </p>
+          </div>
+          <div className="test">
+            <p className="test__paragraphe">
+            <h3>Maglashic</h3>
+              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
+              look.
+            </p>
+          </div>
+          <div className="test">
+            <p className="test__paragraphe">
+            <h3>Maglashic</h3>
+              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
+              look.
+            </p>
+          </div>
+        </Swiper>
       </div>
     </section>
   );
