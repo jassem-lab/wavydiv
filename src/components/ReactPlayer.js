@@ -8,15 +8,8 @@ import Vid from "../assets/vid.mp4";
 const ReactPlayerComponent = () => {
   return (
     <div>
-      this video
-      {/* <ReactPlayer
-        playing={true}
-        controls={true}
-        url={
-          "https://www.youtube.com/watch?v=gdvQt6S7qFU&ab_channel=1HourLoops"
-        }
-        autoPlay
-      ></ReactPlayer> */}
+      <mark>this video</mark>
+
       <ReactPlayer
         style={{ height: `120px`, width: `180px` }}
         loop={true}

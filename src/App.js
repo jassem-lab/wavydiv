@@ -11,10 +11,9 @@ function App() {
   return (
     <div className="">
       {/* <Accordion /> */}
-      {/* <Animation /> */}
+      <Animation />
       {/* <Services /> */}
       <OurWork />
-      {/* <Acc /> */}
       {/* <Footer /> */}
       {/* <Footer3 /> */}
     </div>
