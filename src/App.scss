@@ -187,24 +187,17 @@ body {
 //   margin: 0;
 // }
 
-.test__wrapper {
-  height: 550px !important;
-  max-width: 450px;
-  overflow: hidden;
-}
 .test {
   display: flex;
   flex-direction: column;
-  height: 550px;
-  max-width: 450px;
-  overflow: hidden;
-  margin: 25px;
+  height: 550px !important;
+  max-width: 400px !important;
+  margin: 20px;
   background-image: url("./assets/maglashic-thumbnail.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 
-  
   h3 {
     color: white;
     font-size: 24px;
@@ -221,16 +214,16 @@ body {
   padding-bottom: 25px;
   margin-top: auto;
 }
-
+.test:nth-of-type(odd) {
+  margin-right: 0;
+}
 
 @media screen and (max-width: 600px) {
- 
   .test {
     height: 450px;
-    max-width: 290px !important;
+    max-width: 290px;
 
     margin: 25px 5% !important;
     width: 80vw;
   }
 }
-
