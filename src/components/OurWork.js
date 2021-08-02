@@ -62,38 +62,47 @@ const OurWork = () => {
       </div> */}
       <div className="thumbnail__container">
         <Swiper {...sliderParams}>
-          <div className="test">
-
-            <p className="test__paragraphe">
-            <h3>Maglashic</h3>
-              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
-              look.
-            </p>
+          <div className="test__wrapper">
+            <div className="test">
+              <p className="test__paragraphe">
+                <h3>Maglashic</h3>
+                Maakt wimpers aanbrengen eenvoudiger dan ooit met een
+                natuurlijke look.
+              </p>
+            </div>
           </div>
-
-          <div className="test">
-            <p className="test__paragraphe">
-            <h3>Maglashic</h3>
-              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
-              look.
-            </p>
+          <div className="test__wrapper">
+            <div className="test">
+              <p className="test__paragraphe">
+                <h3>Maglashic</h3>
+                Maakt wimpers aanbrengen eenvoudiger dan ooit met een
+                natuurlijke look.
+              </p>
+            </div>
           </div>
-          <div className="test">
-            <p className="test__paragraphe">
-            <h3>Maglashic</h3>
-              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
-              look.
-            </p>
+          <div className="test__wrapper">
+            <div className="test">
+              <p className="test__paragraphe">
+                <h3>Maglashic</h3>
+                Maakt wimpers aanbrengen eenvoudiger dan ooit met een
+                natuurlijke look.
+              </p>
+            </div>
           </div>
-          <div className="test">
-            <p className="test__paragraphe">
-            <h3>Maglashic</h3>
-              Maakt wimpers aanbrengen eenvoudiger dan ooit met een natuurlijke
-              look.
-            </p>
+          <div className="test__wrapper">
+            <div className="test">
+              <p className="test__paragraphe">
+                <h3>Maglashic</h3>
+                Maakt wimpers aanbrengen eenvoudiger dan ooit met een
+                natuurlijke look.
+              </p>
+            </div>
           </div>
         </Swiper>
       </div>
+      {/* <div className="test2__wrapper">
+      <div className="test2">hello world</div>
+      </div> */}
     </section>
   );
 };
